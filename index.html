@@ -314,6 +314,17 @@
 
 
         @media (max-width: 768px) {
+            .logo-image{
+                height: 65px;
+                width: 65px;
+            }
+            .logo-text{
+               scale: 0.9;
+               padding-left: 0;
+               display: inline;
+               width: 100px;
+            }
+            
             .hero h1 {
                 font-size: 40px;
             }
@@ -543,27 +554,35 @@ margin: 5px 0;
 @media (max-width: 768px) {
     .footer-services {
         flex-direction: column; /* Stack items vertically on smaller screens */
+        height: 50vh;
         align-items: flex-start;
+        justify-content: center;
+       align-items: center;
     }
     .footer-logo-container{
-        width: 50%;
+        width: 70%;
         height: 20%;
+
     }
 
    .footer-logo{
-    width: 60%;
-        height: 70%;
+    width: 70px;
+        height: 70px;
+        padding-bottom:8px ;
    }
 
-    .footer-logo-container,
-    .footer-address {
-        flex: unset;
-        margin-bottom: 20px;
+    .footer-logo-container
+     {
+       width: 80%;
+       padding-bottom: 0;
         
     }
     .footer-logo-text{
-        width: 100px;
+        
+        padding-top: 0px;
+        width: 100%;
         height: 70%;
+       
     }
 }
 
@@ -817,6 +836,7 @@ function updateActiveCenterCard() {
         
         
     </div>
+    
     <div class="footer-services">
         <div class="footer-logo-container">
             <img src="logowhite.png" alt="Logo" class="footer-logo">
@@ -825,13 +845,8 @@ function updateActiveCenterCard() {
                 
             </div>
         </div>
-        <div class="footer-address">
-            <h4>Contact Us:</h4>
-            <p>baba Nagar Chowk Vasant Nagar, Nanded, Maharashtra, India</p>
-            <p>Phone: +91-9822242222</p>
-            <p>Email: singhaddgour@gmail.com</p>
+        
         </div>
-    </div>
     
 
 
