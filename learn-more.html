@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Singh Advertising - Comprehensive marketing services to transform your business">
+    <meta name="keywords" content="Singh Advertising, marketing, branding, digital marketing, web development, Maharashtra">
+    <meta name="author" content="Singh Advertising">
+    <meta name="robots" content="index, follow">
+    <title>Singh Advertising - Our Services</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+    body {
+        background-image: url('download.png') ; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+        color: #333;
+        line-height: 1.6;
+    }
+
+.body.background-image.url {
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+}
+   
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+    }
+
+    /* Header Styles (White Card) */
+    header {
+        background-color: white;
+        border-radius: 13px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 10px 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+    }
+
+    .logo-text {
+        font-size: 20px;
+        font-weight: bold;
+        color: #4169E1;
+    }
+
+    .logo-image {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .cta-button {
+        background: #4169E1;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+        background: hsl(224, 57%, 45%);
+    }
+
+    /* Main Content Styles */
+    .main-content {
+        margin-top: 40px;
+        
+        border-radius: 13px;
+        
+        padding: 18px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .main-content h1 {
+        font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+font-weight: 700; /* Bold */
+font-size: 48px; /* Adjust to match the size in the screenshot */
+
+color: #000;
+margin-bottom: 20px;
+        font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+    }
+
+    .main-content h2 {
+        font-size: 24px;
+        color: #4169E1;
+        margin: 30px 0 15px;
+    }
+
+    .main-content h3 {
+        font-size: 20px;
+        color: #333;
+        margin: 20px 0 10px;
+    }
+
+    .main-content p {
+        margin-bottom: 15px;
+    }
+
+    .main-content ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main-content li {
+        margin-bottom: 8px;
+    }
+
+    .process-list {
+        list-style-type: none;
+    }
+
+    .process-list li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .process-list li:before {
+        content: attr(data-number);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 22px;
+        height: 22px;
+        background-color: #4169E1;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .contact-info {
+    background-color: rgba(255, 255, 255, 0.5); /* Whitish translucent: white with 80% opacity */
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 30px;
+    box-shadow: #000;
+}
+
+    .contact-info h3 {
+        color: #4169E1;
+    }
+
+    .footer-services {
+        width: 100%;
+        margin-top: auto;
+    }
+
+    footer {
+        background-color: #4169E1;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .background-image {
+            position: absolute;
+            right: 20px;
+           
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%); /* Adjust to center vertically */
+            width: 100%; /* Adjust width as needed */
+            height: 100%; /* Maintain aspect ratio */
+            z-index: 1; /* Behind the main content */
+            object-fit: contain; /* Ensure the image scales properly */
+
+        }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+        header, .main-content {
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .logo-image {
+            height: 65px;
+            width: 65px;
+        }
+        .logo-text {
+            scale: 0.9;
+            padding-left: 0;
+            display: inline;
+            width: 100px;
+        }
+        .nav-links {
+            display: none;
+        }
+        .main-content h1 {
+            font-size: 28px;
+        }
+        .main-content h2 {
+            font-size: 22px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Singh Advertising Logo" class="logo-image">
+                    <span class="logo-text">Singh Advertising</span>
+                </a>
+                <div class="nav-links">
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                </div>
+                <a href="tel:+91-9822242222" class="cta-button">Call Now</a>
+            </nav>
+        </header>
+        
+    <div class="main-content">
+        <h1>Discover How Singh Advertising Can Transform Your Business</h1>
+        
+        <h2>Our Approach to Business Growth</h2>
+        <p>At Singh Advertising, we believe that effective marketing is the key to sustainable business growth. 
+            For over 19 years, we've been helping businesses in Maharashtra and beyond achieve their goals through strategic, creative, and results-driven marketing solutions.</p>
+        
+        <h3>What Sets Us Apart</h3>
+        <ul>
+            <li><strong>Data-Driven Strategy</strong>: We combine creative thinking with analytics to ensure every campaign delivers measurable results</li>
+            <li><strong>Comprehensive Solutions</strong>: From traditional advertising to cutting-edge digital marketing</li>
+            <li><strong>Client-Centered Focus</strong>: Your success is our success - we're invested in your growth</li>
+        </ul>
+        
+        <h2>Our Comprehensive Services</h2>
+        
+        <h3>Branding & Design Excellence</h3>
+        <p>Your brand is more than just a logo—it's the essence of your business identity. Our design team creates visually compelling 
+         assets that communicate your values and resonate with your target audience:</p>
+        <ul>
+            <li>Logo design and brand identity development</li>
+            <li>Print materials (brochures, flyers, business cards)</li>
+            
+            <li>Billboard and outdoor advertising</li>
+            <li>Brand style guides and messaging</li>
+        </ul>
+        
+        <h3>Digital Marketing Mastery</h3>
+        <p>In today's digital world, having a strong online presence is essential. Our digital marketing solutions include:</p>
+        <ul>
+            <li><strong>Social Media Management</strong>: Strategic content creation, community engagement, and paid advertising across all major platforms</li>
+            <li><strong>Search Engine Optimization (SEO)</strong>: Improve your website's visibility and drive organic traffic</li>
+            <li><strong>Pay-Per-Click Advertising</strong>: Targeted campaigns on Google, Facebook, Instagram, and LinkedIn</li>
+           
+        </ul>
+        
+        <h3>Web Development & Digital Solutions</h3>
+        <p>A professional website is your business's digital storefront. Our web development services include:</p>
+        <ul>
+            <li><strong>Custom Website Development</strong>: Tailored to your brand and business needs</li>
+            <li><strong>E-commerce Solutions</strong>: Turn your website into a sales machine</li>
+            <li><strong>Landing Pages</strong>: High-converting pages designed for specific campaigns</li>
+           
+        </ul>
+        
+        <h3>Digital Display & Technology</h3>
+        <p>Stay ahead with innovative digital display solutions:</p>
+        <ul>
+            <li><strong>LED Display Systems</strong>: Eye-catching indoor and outdoor displays</li>
+            <li><strong>Digital Signage</strong>: Dynamic content that engages customers</li>
+            <li><strong>Software Development</strong>: Custom applications for your business needs</li>
+            <li><strong>Technology Integration</strong>: Connecting your marketing tools for maximum efficiency</li>
+        </ul>
+        
+        
+        
+        <h2>Get Started Today</h2>
+        <p>Ready to take your business to the next level? Our team is here to help you develop a marketing strategy that delivers results.</p>
+        
+        <div class="contact-info">
+            <h3>Contact us today
+                 </h3>
+            
+            <p>Let's create something amazing together.</p>
+        </div>
+   
+</div>
+</div>
+    
+
+<div class="footer-services">
+    <footer>
+        <p>© 2025 Singh Advertising. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
