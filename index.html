@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Singh Advertising - Leading Advertising & Marketing Agency in Nanded. offering digital marketing, branding & creative solutions for 19+ years.">
+    <meta name="keywords" content="Singh Advertising, advertising & marketing agency Nanded, digital marketing, branding services, creative advertising, social media marketing, marketing, advertising, agency, business">
+    <meta name="author" content="Singh Advertising">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Singh Advertising - Optimize Your Business for More Profit. ">
+    <meta property="og:description" content="We help businesses grow and succeed by crafting creative marketing solutions that truly connect with people and make your brand stand out.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://singh-advertising-ui9r.onrender.com/">
+    <link rel="canonical" href="https://singh-advertising-ui9r.onrender.com/">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Singh Advertising - Best Marketing & Advertising Agency</title>
+
+  
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        /* Previous styles remain the same */
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4169E1;
+        }
+
+        .logo-image {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4169E1;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            background: #4169E1;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #3154b3;
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            color: #000;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        .secondary-button {
+            background: white;
+            color: #4169E1;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            border: 2px solid #4169E1;
+            transition: all 0.3s;
+        }
+
+        /* New About Section Styles */
+       /* About Section */
+.about-section {
+    padding: 100px 50px; /* Padding for top, bottom, and sides */
+    background: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 50px; /* Space from the bottom */
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+/* About Section Content */
+.about-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+/* Text Styling */
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.section-label {
+            color: #4169E1;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+/* Images */
+.about-images {
+    flex: 1;
+    /*display: grid;*/
+   
+    gap: 20px;
+}
+
+.about-images img {
+    width: 100%;
+    border-radius: 12px;
+     /* Matches the section */
+}
+        .decoration-line {
+            position: absolute;
+            top: 50%;
+            left: -40px;
+            width: 100px;
+            height: auto;
+        }
+
+       /* Base styles for the experience section */
+       .experience-section {
+    background-color: #fff; /* Default background color */
+    color: #000; /* Default text color */
+    transition: background-color 0.9s ease-in-out, color 0.9s ease-in-out; /* Smooth transition */
+    margin-left: 0%;
+    padding-left: 0%;
+    border-radius: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    padding-bottom: 40px;
+}
+
+.experience-section.scrolled {
+    background-color: #000; /* New background color when scrolled */
+    color: #fff; /* New text color when scrolled */
+
+
+}
+.experience-section.scrolled .experience-text h2 {
+    color: #fff; /* Change text color to white when scrolled */
+}
+.experience-content {
+    display: flex;
+    gap: 50px;
+    width: 100%; /* Make it span full screen */
+    padding: 0 0px;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+
+.experience-text {
+    flex: 1;
+    max-width: 600px;
+    padding-left: 40px;
+    align-items: center;
+    padding-left: 40;
+}
+
+.experience-text h2 {
+    font-size: 69px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #000000;
+    line-height: 1.2;
+    align-items: center;
+    padding-left: 40;
+}
+
+
+.experience-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    align-items: center;
+    padding-top: 100;
+    padding-left:40;
+}
+
+.experience-images {
+    flex: 1;
+   width: 100%;
+   height: 100vh;
+ margin: 0 0 ;
+   padding: 0  0 ;
+    gap: 20px;
+    padding-right: 10;
+    padding-bottom: 0;
+}
+
+.experience-images img {
+    width: 100%;
+    border-radius: 12px;
+   height: 100%;
+    align-items: center;
+    object-fit: cover;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .experience-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .experience-images {
+        width: 100%;
+        padding: 0 0 0 ;
+    }
+
+    .experience-images img {
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 ;
+    }
+
+    .experience-text {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        height: 60%;
+    }
+    .experience-text h2{
+        font-size:40px;
+    }
+    .experience-text p{
+        font-size: small;
+    }
+    
+}
+
+
+        @media (max-width: 768px) {
+            .logo-image{
+                height: 65px;
+                width: 65px;
+            }
+            .logo-text{
+               scale: 0.9;
+               padding-left: 0;
+               display: inline;
+               width: 100px;
+            }
+            
+            .hero h1 {
+                font-size: 40px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .hero {
+                padding: 60px 0;
+            }
+
+            .about-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .about-text h2 {
+                font-size: 32px;
+            }
+            .cta-button{
+                height: 0%;
+            }
+        }
+
+        .services-section {
+    padding-top: 40px;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px; /* Add this to match the spacing of about-section */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 49px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #4169E1;
+    line-height: 1.2;
+    align-items: center;
+    padding-left: 40;
+}
+
+.service-cards-container {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 20px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.service-cards-container::-webkit-scrollbar {
+    display: none; /* WebKit */
+}
+
+.service-card-wrapper {
+    flex: 0 0 calc(25% - 20px); /* Adjusted for 4 cards with gap */
+    min-width: 250px;
+    max-width: 300px;
+    scroll-snap-align: center;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+    transform: scale(0.9);
+}
+
+.service-card-wrapper.active {
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+}
+
+.service-cards-container {
+    /* Existing styles */
+    -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
+    overscroll-behavior-x: contain; /* Prevent bounce effect */
+    scroll-snap-type: x mandatory;
+    cursor: grab;
+}
+
+.service-cards-container:active {
+    cursor: grabbing;
+}
+
+.service-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.service-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .service-card-wrapper {
+        flex: 0 0 calc(50% - 20px); /* 2 cards for mobile */
+        min-width: 200px;
+    }
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .service-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .service-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer-services {
+    height: 50vh;
+    padding: 40px 20px;
+    background-color: #4169E1;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Ensure text is centered */
+}
+
+.footer-logo {
+    width: 60px; /* Adjust size as needed to match your design */
+    height: 60px;
+    object-fit: contain;
+}
+
+.footer-logo-text{
+font-size: 20px;
+font-weight: bold;
+color: #ffffff;
+
+}
+
+.footer-logo-container {
+    display: flex; /* Use flex to place logo and text side by side */
+    align-items: center; /* Vertically align items in the container */
+    gap: 10px; /* Add some space between logo and text */
+    margin-bottom: 0; /* Remove any default margin */
+}
+
+
+.footer-circle {
+border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+
+.footer-logo-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; /* Remove default margins */
+}
+
+
+.footer-logo-text p {
+font-size: 16px;
+margin: 0;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+    padding-right: 30px;
+    
+    padding-bottom: 100;
+}
+
+.footer-address h4 {
+font-size: 20px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.footer-address p {
+font-size: 16px;
+margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-services {
+        padding: 20px 10px; /* Reduce padding on smaller screens */
+        height: 50vh; /* Allow height to adjust dynamically */
+    }
+
+    .footer-logo-container {
+        gap: 5px; /* Reduce gap on mobile for tighter spacing */
+    }
+
+    .footer-logo {
+        width: 50px; /* Smaller logo on mobile */
+        height: 50px;
+    }
+    .footer-logo-text h3 {
+        font-size: 20px; /* Smaller text on mobile */
+    }
+
+    .footer-logo-container
+     {
+       width: 80%;
+       padding-bottom: 0;
+        
+    }
+    .footer-logo-text{
+        
+        padding-top: 0px;
+        width: 100%;
+        height: 70%;
+       
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo-container">
+                <img src="logo.png" alt="Singh Advertising Logo" class="logo-image">
+                <span class="logo-text">Singh Advertising</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="/blog.html">Blog</a>
+            </div>
+            <a href="tel:+91-9822242222" class="cta-button">Call Now</a>
+        </nav>
+        
+        <section class="hero">
+            <h1>Optimize Your Business for<br>More Profit.</h1>
+            <p>We help businesses grow and succeed by crafting creative marketing solutions that truly connect with people and make your brand stand out.</p>
+            <div class="button-group">
+                <a href="tel:+91-9822242222" class="cta-button">Call Now</a>
+                <a href="/learn-more.html" class="secondary-button">Learn More</a>
+            </div>
+            <span class="decoration"></span>
+        </section>
+
+        <!-- New About Section -->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-label">About Us</span>
+                    <h2>Who We Are?</h2>
+                    <p>
+                        Singh Advertising is a marketing agency delivering innovative solutions to boost business growth. We combine creativity and data-driven strategies to ensure impactful results for businesses of all sizes.</p>
+                        <a href="tel:+91-9822242222" class="cta-button">Call Now</a>
+                </div>
+                <div class="about-images">
+                    <img src="megaphone.png" alt="Team collaboration">
+                  
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="experience-section">
+            <div class="experience-content">
+                <div class="experience-text">
+                    <h2>With 19 Years of Experience</h2>
+                    <p>
+                        Started in 2005 in Nanded, Maharashtra by Mahendra Singh Gour, Singh Advertising has been a trusted name in the advertising and marketing industry for over 19 years. We've proudly helped more than 1,000 small and medium-sized businesses across Maharashtra and beyond. Our mission is to provide creative advertising solutions that drive growth and create lasting connections.
+                    </p>
+                </div>
+                <div class="experience-images">
+                   
+                    <img src="my_img.png" alt="Experience Image 2">
+                </div>
+            </div>
+        </section>
+        <!-- Add a new "Our Services" Section -->
+        <div id="services" class="services-section">
+            <h2 class="section-title">Our Services</h2>
+        <div class="service-cards-container">
+            <div class="service-card-wrapper">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="branding.png" alt="Strategic Marketing">
+                    </div>
+                    <h3 class="service-title">Branding & Designing</h3>
+                    <p class="service-description"> visually stunning designs that capture your audience's attention. From logos to print materials, we've got you covered</p>
+                </div>
+            </div>
+            <div class="service-card-wrapper">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="digital-marketing.png" alt="Social Media Management">
+                    </div>
+                    <h3 class="service-title">Social Media & Digital Marketing</h3>
+                    <p class="service-description">Leverage the power of social media to reach your target audience, build brand awareness, and drive website traffic and sales.</p>
+                </div>
+            </div>
+            <div id="ser" class="service-card-wrapper">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="promotion.png" alt="Search Engine Optimization">
+                    </div>
+                    <h3 class="service-title">Digital Solutions</h3>
+                    <p class="service-description">Expert digital solutions to drive your business forward. From LED displays to software development, we've got you covered.</p>
+                </div>
+            </div>
+            <div class="service-card-wrapper">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="creative-process.png" alt="Creative Design">
+                    </div>
+                    <h3 class="service-title">Creative Design</h3>
+                    <p class="service-description">Picture-perfect branding and graphics – we make your competitors jealous, and your audience adore you.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "MarketingAgency",
+              "name": "Singh Advertising",
+              "image": "logo.png",
+              "description": "Leading advertising & marketing agency in Nanded offering digital marketing, branding, and creative advertising solutions.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nanded",
+                "addressRegion": "Maharashtra",
+                "addressCountry": "IN",
+                "postalCode": "431601",
+                "streetAddress": "vasant nagar, baba nagar chowk, near somani clinic, Nanded, Maharashtra",
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "19.1383",
+                "longitude": "77.3210"
+              },
+              "url": "https://singh-advertising-ui9r.onrender.com/",
+              "telephone": "+91-9822242222",
+              "foundingDate": "2005",
+              "founder": {
+                "@type": "Person",
+                "name": "Mahendra Singh Gour"
+              },
+            
+            }
+            </script>
+        <script>
+       // Create custom 404 page handler
+       window.addEventListener('404', function() {
+            window.location.href = '/404.html';
+        });
+document.addEventListener('DOMContentLoaded', () => {
+    // Experience Section Scroll Effect
+    window.addEventListener("scroll", function () {
+        const experienceSection = document.querySelector("#experience");
+        const sectionTop = experienceSection.offsetTop;
+        const sectionHeight = experienceSection.offsetHeight;
+        const scrollY = window.scrollY;
+
+        // Check if the user has scrolled into the section
+        if (scrollY + window.innerHeight > sectionTop && scrollY < sectionTop + sectionHeight) {
+            experienceSection.classList.add("scrolled");
+        } else {
+            experienceSection.classList.remove("scrolled");
+        }
+    });
+
+    // Service Cards Scroll and Active State
+    const serviceCardsContainer = document.querySelector('.service-cards-container');
+    const serviceCards = document.querySelectorAll('.service-card-wrapper');
+
+    serviceCardsContainer.addEventListener('scroll', () => {
+        const containerWidth = serviceCardsContainer.offsetWidth;
+        const scrollLeft = serviceCardsContainer.scrollLeft;
+        
+        // Calculate the middle index
+        const middleIndex = Math.round((scrollLeft + containerWidth / 2) / containerWidth * (serviceCards.length - 1));
+
+        serviceCards.forEach((card, index) => {
+            if (index === middleIndex) {
+                // Enlarge the middle card
+                card.classList.add('active');
+                card.style.transform = 'scale(1.2)'; // Increase size more dramatically
+                card.style.zIndex = '10'; // Ensure it's on top of other cards
+            } else {
+                card.classList.remove('active');
+                card.style.transform = 'scale(1)';
+                card.style.zIndex = '1';
+            }
+        });
+    });
+
+    // Drag Scroll Functionality
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    serviceCardsContainer.addEventListener('mousedown', (e) => {
+        isDown = true;
+        serviceCardsContainer.classList.add('active');
+        startX = e.pageX - serviceCardsContainer.offsetLeft;
+        scrollLeft = serviceCardsContainer.scrollLeft;
+    });
+
+    serviceCardsContainer.addEventListener('mouseleave', () => {
+        isDown = false;
+        serviceCardsContainer.classList.remove('active');
+    });
+
+    serviceCardsContainer.addEventListener('mouseup', () => {
+        isDown = false;
+        serviceCardsContainer.classList.remove('active');
+    });
+
+    serviceCardsContainer.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - serviceCardsContainer.offsetLeft;
+        const walk = (x - startX) * 2; // Multiply by 2 to increase scroll speed
+        serviceCardsContainer.scrollLeft = scrollLeft - walk;
+    });
+});
+
+function updateActiveCenterCard() {
+        const containerRect = serviceCardsContainer.getBoundingClientRect();
+        const containerCenter = containerRect.left + containerRect.width / 2;
+
+        serviceCards.forEach(card => {
+            const cardRect = card.getBoundingClientRect();
+            const cardCenter = cardRect.left + cardRect.width / 2;
+
+            // Check if the card's center is close to the container's center
+            const isActive = Math.abs(cardCenter - containerCenter) < 100;
+
+            if (isActive) {
+                card.classList.add('active');
+            } else {
+                card.classList.remove('active');
+            }
+        });
+    }
+
+    // Initial setup
+    updateActiveCenterCard();
+
+    // Update on scroll
+    serviceCardsContainer.addEventListener('scroll', updateActiveCenterCard);
+
+    // Drag scroll functionality
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    serviceCardsContainer.addEventListener('mousedown', (e) => {
+        isDown = true;
+        serviceCardsContainer.classList.add('active');
+        startX = e.pageX - serviceCardsContainer.offsetLeft;
+        scrollLeft = serviceCardsContainer.scrollLeft;
+    });
+
+    serviceCardsContainer.addEventListener('mouseleave', () => {
+        isDown = false;
+        serviceCardsContainer.classList.remove('active');
+    });
+
+    serviceCardsContainer.addEventListener('mouseup', () => {
+        isDown = false;
+        serviceCardsContainer.classList.remove('active');
+        updateActiveCenterCard();
+    });
+
+    serviceCardsContainer.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - serviceCardsContainer.offsetLeft;
+        const walk = (x - startX) * 2;
+        serviceCardsContainer.scrollLeft = scrollLeft - walk;
+    });
+
+    // Touch support for mobile
+    serviceCardsContainer.addEventListener('touchstart', (e) => {
+        const touch = e.touches[0];
+        startX = touch.pageX - serviceCardsContainer.offsetLeft;
+        scrollLeft = serviceCardsContainer.scrollLeft;
+    });
+
+    serviceCardsContainer.addEventListener('touchmove', (e) => {
+        const touch = e.touches[0];
+        const x = touch.pageX - serviceCardsContainer.offsetLeft;
+        const walk = (x - startX) * 2;
+        serviceCardsContainer.scrollLeft = scrollLeft - walk;
+    });
+
+        </script>
+        
+        
+        
+    </div>
+    
+    <div class="footer-services">
+        <div class="footer-logo-container">
+            <img src="logowhite.png" alt="Logo" class="footer-logo">
+            <div class="footer-logo-text">
+                <h3>Singh Advertising</h3>
+                
+            </div>
+        </div>
+        
+        </div>
+    
+
+
+</body>
+</html>

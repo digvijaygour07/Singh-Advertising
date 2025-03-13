@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* General Reset */
 * {
     margin: 0;
@@ -80,7 +80,7 @@
   .primary-btn:hover, .secondary-btn:hover {
     opacity: 0.9;
   }
-=======
+
 /* General Reset */
 * {
     margin: 0;
@@ -162,5 +162,5 @@
   .primary-btn:hover, .secondary-btn:hover {
     opacity: 0.9;
   }
->>>>>>> 64c4cb039d66547cf806546cb3e260301c4ae8d4
+
   
