@@ -473,6 +473,11 @@
     line-height: 1.5;
 }
 
+
+.footer-services {
+    height: 100vh;}
+
+
 @media (max-width: 768px) {
     .service-card-wrapper {
         flex: 0 0 calc(50% - 20px); /* 2 cards for mobile */
@@ -495,109 +500,110 @@
     }
 }
 
+
+
 .footer-services {
-    height: 50vh;
+   height: 40vh;
     padding: 40px 20px;
     background-color: #4169E1;
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
-    text-align: center; /* Ensure text is centered */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 .footer-logo {
-    width: 60px; /* Adjust size as needed to match your design */
+    width: 60px;
     height: 60px;
     object-fit: contain;
 }
 
-.footer-logo-text{
-font-size: 20px;
-font-weight: bold;
-color: #ffffff;
-
+.footer-logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .footer-logo-container {
-    display: flex; /* Use flex to place logo and text side by side */
-    align-items: center; /* Vertically align items in the container */
-    gap: 10px; /* Add some space between logo and text */
-    margin-bottom: 0; /* Remove any default margin */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-
 .footer-circle {
-border-radius: 50%;
-height: 100px;
-width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 .footer-logo-text h3 {
     font-size: 24px;
     font-weight: bold;
-    margin: 0; /* Remove default margins */
+    margin: 0;
 }
-
 
 .footer-logo-text p {
-font-size: 16px;
-margin: 0;
+    font-size: 16px;
+    margin: 0;
 }
 
-.footer-address {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 30px;
-    padding-right: 30px;
-    
-    padding-bottom: 100;
+.footer-services p {
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-.footer-address h4 {
-font-size: 20px;
-margin-bottom: 10px;
-font-weight: bold;
-}
-
-.footer-address p {
-font-size: 16px;
-margin: 5px 0;
-}
-
+/* Mobile responsiveness */
 @media (max-width: 768px) {
     .footer-services {
-        padding: 20px 10px; /* Reduce padding on smaller screens */
-        height: 50vh; /* Allow height to adjust dynamically */
+        padding: 30px 15px;
+        min-height: auto;
     }
 
     .footer-logo-container {
-        gap: 5px; /* Reduce gap on mobile for tighter spacing */
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
     }
 
     .footer-logo {
-        width: 50px; /* Smaller logo on mobile */
+        width: 50px;
         height: 50px;
     }
+
     .footer-logo-text h3 {
-        font-size: 20px; /* Smaller text on mobile */
+        font-size: 20px;
     }
 
-    .footer-logo-container
-     {
-       width: 80%;
-       padding-bottom: 0;
-        
+    .footer-services p {
+        font-size: 14px;
     }
-    .footer-logo-text{
-        
-        padding-top: 0px;
-        width: 100%;
-        height: 70%;
-       
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+    .footer-services {
+        padding: 25px 10px;
     }
+
+    .footer-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer-logo-text h3 {
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    
 }
 
     </style>
@@ -891,7 +897,7 @@ function updateActiveCenterCard() {
                 
             </div>
         </div>
-        
+        <p>© 2025 Singh Advertising. All rights reserved.</p>
         </div>
     
 
